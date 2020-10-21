@@ -1,10 +1,9 @@
 #include "../include/ortools.h"
-/*
-using operations_research;
 
+namespace operations_research {
  auto LinearProgrammingExample() -> void {
     MPSolver solver("linear_programming_examples",
-        MPSolver::GLOP_LINEAR_PROGRAMMING);
+        MPSolver::CPLEX_LINEAR_PROGRAMMING);
 
     const double infinity = solver.infinity();
 
@@ -47,4 +46,4 @@ using operations_research;
     LOG(INFO) << x->name() << " = " << x->solution_value();
     LOG(INFO) << y->name() << " = " << y->solution_value();
 }
-*/
+}

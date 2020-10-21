@@ -9,9 +9,9 @@ set(EXECUTABLE ${PROJECT_NAME})
 
 set(CMAKE_CXX_STANDARD 17)
 
-#find_package(ortools REQUIRED)
-#set(LIBS ${ORTOOLS_LIBRARIES})
-#include_directories(${ORTOOLS_INCLUDE_DIRS})
+find_package(ortools REQUIRED)
+set(LIBS ${ORTOOLS_LIBRARIES})
+include_directories(${ORTOOLS_INCLUDE_DIRS})
 
 add_executable(${EXECUTABLE} main.cc ${PROJECT_SOURCE_DIR}/src/ortools.cpp ${PROJECT_SOURCE_DIR}/include/ortools.h) 
 target_link_libraries(${EXECUTABLE} ${LIBS})

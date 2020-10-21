@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ewarchul/cplex/main.cc" "/home/ewarchul/cplex/build/CMakeFiles/test.dir/main.cc.o"
-  "/home/ewarchul/cplex/src/ortools.cpp" "/home/ewarchul/cplex/build/CMakeFiles/test.dir/src/ortools.cpp.o"
+  "/home/ewarchul/Desktop/CPLEX/main.cc" "/home/ewarchul/Desktop/CPLEX/build/CMakeFiles/test.dir/main.cc.o"
+  "/home/ewarchul/Desktop/CPLEX/src/ortools.cpp" "/home/ewarchul/Desktop/CPLEX/build/CMakeFiles/test.dir/src/ortools.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
