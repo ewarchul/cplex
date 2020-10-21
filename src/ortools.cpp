@@ -2,6 +2,7 @@
 
 namespace operations_research {
  auto LinearProgrammingExample() -> void {
+
     MPSolver solver("linear_programming_examples",
         MPSolver::CPLEX_LINEAR_PROGRAMMING);
 

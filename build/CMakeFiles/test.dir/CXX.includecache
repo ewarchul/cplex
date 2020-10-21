@@ -7,12 +7,12 @@
 #IncludeRegexTransform: 
 
 /home/ewarchul/Desktop/CPLEX/include/ortools.h
+iostream
+-
 ortools/linear_solver/linear_solver.h
 -
 
-/home/ewarchul/Desktop/CPLEX/main.cc
-iostream
--
-include/ortools.h
+/home/ewarchul/Desktop/CPLEX/src/ortools.cpp
+../include/ortools.h
 /home/ewarchul/Desktop/CPLEX/include/ortools.h
 
