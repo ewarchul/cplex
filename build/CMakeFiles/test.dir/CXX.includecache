@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ewarchul/Desktop/CPLEX/main.cc
+ortools/linear_solver/linear_solver.h
+/home/ewarchul/Desktop/CPLEX/ortools/linear_solver/linear_solver.h
+iostream
+-
+
