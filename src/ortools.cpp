@@ -45,5 +45,5 @@ namespace operations_research {
     LOG(INFO) << "Optimal objective value = " << objective->Value();
     LOG(INFO) << x->name() << " = " << x->solution_value();
     LOG(INFO) << y->name() << " = " << y->solution_value();
-}
+ }
 }
