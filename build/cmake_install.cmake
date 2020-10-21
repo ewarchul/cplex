@@ -1,4 +1,4 @@
-# Install script for directory: /home/ewarchul/Desktop/CPLEX
+# Install script for directory: /home/ewarchul/cplex
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ewarchul/Desktop/CPLEX/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ewarchul/cplex/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

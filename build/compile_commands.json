@@ -1,7 +1,12 @@
 [
 {
-  "directory": "/home/ewarchul/Desktop/CPLEX/build",
-  "command": "/bin/g++-9    -g   -std=gnu++17 -o CMakeFiles/test.dir/main.cc.o -c /home/ewarchul/Desktop/CPLEX/main.cc",
-  "file": "/home/ewarchul/Desktop/CPLEX/main.cc"
+  "directory": "/home/ewarchul/cplex/build",
+  "command": "/usr/bin/g++-8    -g   -std=gnu++17 -o CMakeFiles/test.dir/main.cc.o -c /home/ewarchul/cplex/main.cc",
+  "file": "/home/ewarchul/cplex/main.cc"
+},
+{
+  "directory": "/home/ewarchul/cplex/build",
+  "command": "/usr/bin/g++-8    -g   -std=gnu++17 -o CMakeFiles/test.dir/src/ortools.cpp.o -c /home/ewarchul/cplex/src/ortools.cpp",
+  "file": "/home/ewarchul/cplex/src/ortools.cpp"
 }
 ]
